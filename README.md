@@ -1,8 +1,34 @@
 # Dr. Pavanam Thomas
 
-### Lean 4 Formalization · Formal Verification · Mathematical Reasoning · Quantitative Research
+### PhD Quantitative Researcher & Mathematical Modeller
+Econometrics · Statistics · Causal Inference · Forecasting · Optimization · Python · AI Evaluation · Formal Reasoning
 
-I am a PhD economist and quantitative researcher working at the intersection of **mathematical modelling, formal reasoning, Lean 4, reproducible research, and formal verification**.
+I am a PhD economist and quantitative researcher. The public work is one practice at different points of the same pipeline: **identification, estimation, validation, decision modelling, evaluation of quantitative arguments, and Lean 4 formalization**.
+
+Computational laboratories below are research software with tests and CI. Simulated data are labelled as simulated. They are not trading performance and not a substitute for the Lean repositories.
+
+A single methodological sequence is used throughout:
+
+**Problem → formalization → assumptions → computation/estimation → validation → interpretation → limitations**
+
+---
+
+## Computational laboratories
+
+| Repository | What a reviewer will see |
+| --- | --- |
+| [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) | Estimands, diagnostics, DiD / IV / RD / matching on documented simulated designs |
+| [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation) | Inference, Monte Carlo coverage, regression pathologies, statistical-error catalogue |
+| [time-series-forecasting-lab](https://github.com/pavanamthomas/time-series-forecasting-lab) | Rolling-origin forecasts versus naive benchmarks; in-sample fit is not treated as forecast skill |
+| [optimization-decision-models](https://github.com/pavanamthomas/optimization-decision-models) | Programmes, solvers, independent feasibility and duality checks |
+| [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models) | Educational valuation, portfolios, derivatives, and risk identities |
+| [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks) | Expert review of economics, econometrics, statistics, and quantitative answers |
+
+Inspect first for applied roles: the econometrics case study, the AI-evaluation flagship review, and the statistical-error catalogue. Inspect first for formal roles: the Lean repositories below.
+
+---
+
+## Formal reasoning
 
 My current formalization work is organized around a central question:
 
