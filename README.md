@@ -122,7 +122,9 @@ Rolle, Lagrange, and Cauchy reconstructed from the extreme value theorem and Fer
 
 ## Open work
 
-Unfinished technical bounds are recorded in each repository’s `ROADMAP.md` and in GitHub issues. Typical remaining limits include clustered inference in the econometrics laboratory, the absence of a second-rater study in the evaluation corpus, and graded relevance in the RAG laboratory. CI checks that documented tests still run. It does not certify an observational application.
+Unfinished bounds in the Python laboratories are listed in each lab’s `ROADMAP.md` and in GitHub issues. Typical remaining limits include clustered inference in the econometrics laboratory, the absence of a second-rater study in the evaluation corpus, and graded relevance in the RAG laboratory.
+
+The Lean repositories record unfinished mathematics in their README limitation notes rather than in a ROADMAP or issue queue. CI checks that documented tests or `lake build` still run. It does not certify an observational application.
 
 ---
 
