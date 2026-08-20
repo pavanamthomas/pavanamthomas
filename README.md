@@ -122,7 +122,7 @@ Rolle, Lagrange, and Cauchy reconstructed from the extreme value theorem and Fer
 
 ## Open work
 
-Unfinished bounds in the Python laboratories are listed in each lab’s `ROADMAP.md` and in GitHub issues. Typical remaining limits include clustered inference in the econometrics laboratory, the absence of a second-rater study in the evaluation corpus, and graded relevance in the RAG laboratory.
+Unfinished bounds in the Python laboratories are listed in each lab’s `ROADMAP.md`. GitHub issues are used where a remaining gap is still unimplemented. Examples that are still open: Cohen's kappa in the evaluation corpus is arithmetic on label vectors, not a second-rater study; nDCG in the RAG laboratory is binary, not graded. The econometrics wild-cluster interval is a Rademacher percentile of coefficients, not Webb weights or a restricted bootstrap-t.
 
 The Lean repositories record unfinished mathematics in their README limitation notes rather than in a ROADMAP or issue queue. CI checks that documented tests or `lake build` still run. It does not certify an observational application.
 
