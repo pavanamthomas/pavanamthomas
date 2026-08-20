@@ -51,7 +51,9 @@ When is a forecast validated, rather than merely well fitted in sample?
 
 → [FORECAST_VALIDATION_PLAYBOOK.md](https://github.com/pavanamthomas/time-series-forecasting-lab/blob/main/FORECAST_VALIDATION_PLAYBOOK.md)
 
-Samples used in these laboratories are simulated unless a closed form is stated. Simulated recovery of a parameter is not an observational finding.
+Samples in the Python laboratories are **documented simulated DGPs** (or closed forms). That is the design: the true ATT, break date, coverage probability, or optimum is known, so a wrong procedure can be shown to fail. They are not observational extracts, and recovering a simulated parameter is not an empirical finding.
+
+The YAML evaluation corpus is coded by one author. Cohen's kappa in that repository is arithmetic on known label tables, not a second-rater study ([issue #5](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/issues/5)).
 
 ---
 
@@ -88,7 +90,9 @@ How can a mathematical statement be translated, proved, reviewed, and repaired i
 
 Compilation is not faithfulness. Lean is used here for explicit domains, quantifiers, existence versus uniqueness, and boundary cases. A compiled theorem does not establish an empirical causal claim.
 
-For this portfolio the Lean repositories are ordered from economic modelling toward classical analysis:
+Each Lean repository is a **released case library**: the theorems were published together in the initial commit. That is a catalogue release, not a missing commit diary. Where a later commit exists, it is a documentation or link correction. CI checks that `lake build` (or the documented test) still runs.
+
+The libraries are listed from economic modelling toward classical analysis:
 
 ### 1. [Optimization & Economic Models](https://github.com/pavanamthomas/lean4-optimization-economics)
 
@@ -122,9 +126,9 @@ Rolle, Lagrange, and Cauchy reconstructed from the extreme value theorem and Fer
 
 ## Open work
 
-Unfinished bounds in the Python laboratories are listed in each lab’s `ROADMAP.md`. GitHub issues are used where a remaining gap is still unimplemented. Examples that are still open: Cohen's kappa in the evaluation corpus is arithmetic on label vectors, not a second-rater study; nDCG in the RAG laboratory is binary, not graded. The econometrics wild-cluster interval is a Rademacher percentile of coefficients, not Webb weights or a restricted bootstrap-t.
+Unfinished bounds in the Python laboratories are listed in each lab’s `ROADMAP.md`. GitHub issues are used where a remaining gap is still unimplemented. The evaluation corpus has no second human rater ([issue #5](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/issues/5)). nDCG in the RAG laboratory is binary, not graded. The econometrics wild-cluster interval is a Rademacher percentile of coefficients, not Webb weights or a restricted bootstrap-t.
 
-The Lean repositories record unfinished mathematics in their README limitation notes rather than in a ROADMAP or issue queue. CI checks that documented tests or `lake build` still run. It does not certify an observational application.
+The Lean repositories are released case libraries. Unfinished mathematics is in each README's limitation notes, not in a fake commit diary. `lake build` does not certify an observational application.
 
 ---
 
