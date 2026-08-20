@@ -5,11 +5,26 @@ Econometrics · Statistics · Causal Inference · Forecasting · Optimization ·
 
 I am a PhD economist and quantitative researcher. The public work is one practice at different points of the same pipeline: **identification, estimation, validation, decision modelling, evaluation of quantitative arguments, and Lean 4 formalization**.
 
-Computational laboratories below are research software with tests and CI. Simulated data are labelled as simulated. They are not trading performance and not a substitute for the Lean repositories.
+Machine-learning laboratories below are research software with tests and CI. They record validation failures, leakage, and independent checks. Simulated data are labelled as simulated. They are not production systems and not a substitute for the Lean repositories.
 
 A single methodological sequence is used throughout:
 
 **Problem → formalization → assumptions → computation/estimation → validation → interpretation → limitations**
+
+---
+
+## Machine learning laboratories
+
+| Repository | What a reviewer will see |
+| --- | --- |
+| [computational-ml-stem-problem-forge](https://github.com/pavanamthomas/computational-ml-stem-problem-forge) | Flagship: original ML/STEM problems, Python reference solutions, independent ground-truth units, adversarial audits |
+| [machine-learning-model-selection-lab](https://github.com/pavanamthomas/machine-learning-model-selection-lab) | Invalid model-selection workflows versus the matching validation design |
+| [genai-rag-evaluation-lab](https://github.com/pavanamthomas/genai-rag-evaluation-lab) | Retrieval metrics kept separate from generation failures in a RAG pipeline |
+| [pytorch-deep-learning-lab](https://github.com/pavanamthomas/pytorch-deep-learning-lab) | Manual NumPy backprop, finite-difference checks, PyTorch autograd |
+| [sql-ml-feature-engineering-lab](https://github.com/pavanamthomas/sql-ml-feature-engineering-lab) | Point-in-time SQL features, leaky counterparts, planted temporal sentinels |
+| [mlops-reproducible-serving-lab](https://github.com/pavanamthomas/mlops-reproducible-serving-lab) | Pipeline artifacts, FastAPI contract, training-serving parity and skew |
+
+Inspect first for an ML-expert review: the problem-forge flagship case, the model-selection failure note, and the training-serving skew write-up.
 
 ---
 
