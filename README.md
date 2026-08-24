@@ -37,8 +37,6 @@ Python · Machine Learning · Model Validation · Ground-Truth Engineering · SQ
 
 Each question above maps to code, tests, or a documented case study in the repositories below.
 
----
-
 ## Selected quantitative and computational work
 
 ### [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)

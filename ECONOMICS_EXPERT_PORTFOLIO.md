@@ -1,99 +1,39 @@
 # Economics Expert / PhD Quantitative Research
 
-This page collects the parts of my public work that are most relevant to economics, econometrics, statistics, forecasting, optimisation, and quantitative review.
+These repositories are the identification work. The ML laboratories reuse the same discipline; they do not replace it.
 
-These laboratories are the identification and validation foundation of the machine-learning repositories, not a discarded earlier track. The same sequence — target, assumptions, method, check, bound — is what the ML, SQL, and RAG work inherits.
+## [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)
 
-The common question across the repositories is not whether a model can produce a coefficient or score. It is whether the target quantity is defined clearly, the assumptions are defensible, the implementation matches those assumptions, and the reported conclusion survives an independent check.
+What estimand is identified, under which assumptions, and what breaks when those fail.
 
-## Econometrics and causal inference
+Open [CASE_STUDY.md](https://github.com/pavanamthomas/econometrics-causal-inference-lab/blob/main/CASE_STUDY.md). DiD, IV, RD, matching, and panel methods sit on documented DGPs. A coefficient that prints is not an empirical causal finding. An IV that satisfies an exclusion restriction in a LATE design is not an ATE.
 
-### [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)
+## [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation)
 
-**Question.** What estimand is identified, under which assumptions, and what breaks when those assumptions fail?
+Which inferential claims survive a known DGP.
 
-**Evidence.** Difference-in-differences, event studies, instrumental variables, regression discontinuity, matching and weighting, panel methods, simulated data-generating processes with known truth, diagnostics, robustness checks, and tests.
+Open [docs/statistical_error_catalogue.md](https://github.com/pavanamthomas/statistical-reasoning-validation/blob/main/docs/statistical_error_catalogue.md). Coverage is a Monte Carlo functional. A robust standard error repairs a variance estimate; it does not repair endogeneity. Majority accuracy on a rare-event DGP remains a bad summary.
 
-**Inspect first.** [CASE_STUDY.md](https://github.com/pavanamthomas/econometrics-causal-inference-lab/blob/main/CASE_STUDY.md)
+## [time-series-forecasting-lab](https://github.com/pavanamthomas/time-series-forecasting-lab)
 
-**A question I can defend.** When does an instrumental-variable estimate identify a local average treatment effect rather than an average treatment effect?
+Out-of-sample forecast skill, not in-sample fit.
 
-**Boundary.** A successful simulation or regression output is not treated as an empirical causal finding.
+Open [FORECAST_VALIDATION_PLAYBOOK.md](https://github.com/pavanamthomas/time-series-forecasting-lab/blob/main/FORECAST_VALIDATION_PLAYBOOK.md). Rolling origin, naive benchmarks, and a designed case where an undifferenced ARIMA on a trend loses out of sample.
 
-## Statistical reasoning and validation
+## [optimization-decision-models](https://github.com/pavanamthomas/optimization-decision-models)
 
-### [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation)
+Does the reported point satisfy the programme that was written down?
 
-**Question.** Which statistical claims survive a known data-generating process, and which fail because the inferential object or uncertainty calculation is wrong?
+Open [MODEL_AUDIT_CHECKLIST.md](https://github.com/pavanamthomas/optimization-decision-models/blob/main/MODEL_AUDIT_CHECKLIST.md). Solver success is not global optimality. Feasibility, KKT residuals, and a poor local start on a double well are kept visible.
 
-**Evidence.** Monte Carlo coverage, probability identities, p-values and confidence intervals, heteroskedasticity, omitted-variable bias, bootstrap checks, classification metrics, imbalance, calibration, and a catalogue of statistical failure patterns.
+## [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)
 
-**Inspect first.** [docs/statistical_error_catalogue.md](https://github.com/pavanamthomas/statistical-reasoning-validation/blob/main/docs/statistical_error_catalogue.md)
+Fluent quantitative answers that fail on the target object, the information set, or the interpretation.
 
-**A question I can defend.** Why does a robust standard error correct a variance estimate without repairing endogeneity?
+Open [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md) (staggered DiD). A correct final number can still be a fail. One author coded the YAML; Cohen's kappa on known tables is arithmetic, not a second-rater study.
 
-**Boundary.** Simulated coverage or estimator recovery is a method check, not evidence about a real population.
+## [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models)
 
-## Forecasting and time-series validation
+Identities under stated assumptions, not a trading book.
 
-### [time-series-forecasting-lab](https://github.com/pavanamthomas/time-series-forecasting-lab)
-
-**Question.** Does a model genuinely forecast future observations better than a suitable benchmark without using future information?
-
-**Evidence.** Stationarity checks, ARIMA and SARIMA, exponential smoothing, residual diagnostics, rolling-origin evaluation, naive benchmarks, structural-break analysis, interval coverage, and volatility-related checks.
-
-**Inspect first.** [FORECAST_VALIDATION_PLAYBOOK.md](https://github.com/pavanamthomas/time-series-forecasting-lab/blob/main/FORECAST_VALIDATION_PLAYBOOK.md)
-
-**A question I can defend.** Why can the best in-sample time-series model be the wrong forecasting model?
-
-**Boundary.** In-sample fit is not reported as forecast skill.
-
-## Mathematical modelling and optimisation
-
-### [optimization-decision-models](https://github.com/pavanamthomas/optimization-decision-models)
-
-**Question.** Does the reported optimum actually satisfy the programme that was written down?
-
-**Evidence.** Constrained and unconstrained optimisation, linear and integer programming, networks, dynamic programming, sensitivity analysis, feasibility checks, and independent verification of candidate optima.
-
-**Inspect first.** [MODEL_AUDIT_CHECKLIST.md](https://github.com/pavanamthomas/optimization-decision-models/blob/main/MODEL_AUDIT_CHECKLIST.md)
-
-**A question I can defend.** Why is a solver success flag not evidence of global optimality?
-
-**Boundary.** Numerical convergence is checked against feasibility, objective values, and problem-specific conditions rather than treated as a proof.
-
-## AI evaluation of quantitative reasoning
-
-### [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)
-
-**Question.** When is a fluent quantitative answer still invalid because the target object, assumptions, method, or interpretation are wrong?
-
-**Evidence.** Golden responses, ten-dimensional rubric scoring, severity labels, earliest-failure-point analysis, candidate-answer review, defect taxonomies, tests, and CI.
-
-**Inspect first.** [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md)
-
-**A question I can defend.** Why can a numerically correct final answer still deserve a fail verdict?
-
-**Boundary.** The corpus is single-author coded. Cohen's kappa checks known label tables; it is not presented as an inter-rater reliability study.
-
-## Quantitative finance
-
-### [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models)
-
-**Question.** Which valuation and risk identities hold under closed-form or simulated conditions, and where do numerical or modelling assumptions break them?
-
-**Evidence.** Reproducible quantitative finance calculations, checks against identities and simulated series, and explicit validation of modelling assumptions.
-
-**Inspect first.** [MODEL_RISK_NOTES.md](https://github.com/pavanamthomas/quantitative-finance-models/blob/main/MODEL_RISK_NOTES.md)
-
-**A question I can defend.** When is a numerically plausible valuation still inconsistent with the underlying model assumptions?
-
-**Boundary.** This repository is not a trading book, client system, or record of live investment performance.
-
-## Working style
-
-Across these repositories, the sequence is deliberately consistent:
-
-**target object → assumptions → method → implementation → failure analysis → independent validation → bounded interpretation**
-
-That sequence is more important to me than presenting a long list of methods. It is also why the repositories retain deliberate failures, correction notes, tests, CI, issues, and roadmaps instead of showing only final successful outputs.
+Open [MODEL_RISK_NOTES.md](https://github.com/pavanamthomas/quantitative-finance-models/blob/main/MODEL_RISK_NOTES.md). Duration-convexity error grows with the yield shock. Recovering a simulated parameter is not live performance.
