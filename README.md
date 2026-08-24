@@ -8,7 +8,9 @@ Across these areas I use the same discipline:
 
 **target → assumptions → method → implementation → failure analysis → independent validation → bounded interpretation**
 
-The repositories are meant to be inspectable technical work, not a list of technologies. Tests, CI, issues, roadmaps, deliberate failures, and correction notes are retained because they show what was checked, what broke, and what remains unresolved.
+The repositories are inspectable technical work. Tests, CI, issues, roadmaps, deliberate failures, and correction notes are retained because they show what was checked, what broke, and what remains unresolved.
+
+The economics and statistics laboratories are the foundation of the machine-learning work, not a previous identity set aside. Estimands, information sets, diagnostics, and independent checks are the same discipline whether the object is an IV, a nested-CV score, a SQL feature, or a RAG trace.
 
 ---
 
@@ -39,20 +41,15 @@ Each question above maps to code, tests, or a documented case study in the repos
 
 ## Selected quantitative and computational work
 
-### [computational-ml-stem-problem-forge](https://github.com/pavanamthomas/computational-ml-stem-problem-forge)
-Can a computational ML/STEM answer be checked by independent objects rather than by repeating the same code path?
-
-→ [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/computational-ml-stem-problem-forge/blob/main/FLAGSHIP_CASE_STUDY.md)
-
 ### [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)
 What estimand is identified, under which assumptions, and what breaks when those assumptions fail?
 
 → [CASE_STUDY.md](https://github.com/pavanamthomas/econometrics-causal-inference-lab/blob/main/CASE_STUDY.md)
 
-### [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)
-When is a fluent quantitative answer still invalid because the target object, assumptions, method, or interpretation are wrong?
+### [computational-ml-stem-problem-forge](https://github.com/pavanamthomas/computational-ml-stem-problem-forge)
+Can a computational ML/STEM answer be checked by independent objects rather than by repeating the same code path?
 
-→ [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md)
+→ [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/computational-ml-stem-problem-forge/blob/main/FLAGSHIP_CASE_STUDY.md)
 
 ### [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation)
 Which inferential claims survive a known data-generating process?
@@ -63,6 +60,11 @@ Which inferential claims survive a known data-generating process?
 What risk does a validation design actually estimate, and where do leakage and selection bias enter?
 
 → [CASE_STUDY_MODEL_SELECTION_FAILURE.md](https://github.com/pavanamthomas/machine-learning-model-selection-lab/blob/main/CASE_STUDY_MODEL_SELECTION_FAILURE.md)
+
+### [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)
+When is a fluent quantitative answer still invalid because the target object, assumptions, method, or interpretation are wrong?
+
+→ [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md)
 
 ### [genai-rag-evaluation-lab](https://github.com/pavanamthomas/genai-rag-evaluation-lab)
 Can retrieval, context-packing, and generation failures be separated and diagnosed?
@@ -90,17 +92,7 @@ The ML-facing repositories are implementation evidence, not claims of commercial
 
 ## How the repositories are developed
 
-I keep the development trail deliberately technical rather than cosmetic:
-
-- meaningful commits tied to an implemented change, test, correction, or documented limitation;
-- automated tests that check properties and failure modes rather than only whether a function returns;
-- CI where the repository has an executable workflow;
-- issues and roadmaps for unresolved bounds rather than pretending the work is complete;
-- failure-and-correction notes that preserve mistakes worth learning from;
-- reproducibility scripts and generated outputs that can be rebuilt from source;
-- explicit non-claims around simulated data, causality, deployment, and production use.
-
-I avoid generic project templates, decorative comments, boilerplate technology lists, and manufactured commit activity. The intent is that a reviewer can follow a real technical question from formulation to implementation, failure, correction, and remaining limitation.
+I keep the development trail technical rather than cosmetic: commits tied to an implemented change, tests that lock properties and failure modes, CI where there is an executable workflow, issues and roadmaps for unresolved bounds, and correction notes that preserve mistakes worth learning from.
 
 ---
 

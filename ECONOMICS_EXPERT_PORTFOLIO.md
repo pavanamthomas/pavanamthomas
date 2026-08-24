@@ -2,6 +2,8 @@
 
 This page collects the parts of my public work that are most relevant to economics, econometrics, statistics, forecasting, optimisation, and quantitative review.
 
+These laboratories are the identification and validation foundation of the machine-learning repositories, not a discarded earlier track. The same sequence — target, assumptions, method, check, bound — is what the ML, SQL, and RAG work inherits.
+
 The common question across the repositories is not whether a model can produce a coefficient or score. It is whether the target quantity is defined clearly, the assumptions are defensible, the implementation matches those assumptions, and the reported conclusion survives an independent check.
 
 ## Econometrics and causal inference
@@ -81,6 +83,8 @@ The common question across the repositories is not whether a model can produce a
 **Question.** Which valuation and risk identities hold under closed-form or simulated conditions, and where do numerical or modelling assumptions break them?
 
 **Evidence.** Reproducible quantitative finance calculations, checks against identities and simulated series, and explicit validation of modelling assumptions.
+
+**Inspect first.** [MODEL_RISK_NOTES.md](https://github.com/pavanamthomas/quantitative-finance-models/blob/main/MODEL_RISK_NOTES.md)
 
 **A question I can defend.** When is a numerically plausible valuation still inconsistent with the underlying model assumptions?
 

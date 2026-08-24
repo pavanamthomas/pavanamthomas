@@ -108,10 +108,6 @@ The tests check properties such as group isolation, future-data exclusion, train
 
 ## What I expect a technical reviewer to challenge
 
-I do not want these repositories to look finished in the sense of having no open technical questions. The useful evidence is the opposite: tests that lock known failure modes, issues that record unresolved bounds, roadmaps that name missing validation, and corrections that show where an initial procedure or interpretation was insufficient.
-
-That is also why I avoid generic template prose, decorative comments, and artificial commit activity. A repository should read like a real technical investigation: specific question, implementation, failure, check, correction, remaining limitation.
-
-Across the ML-facing work, the recurring sequence is:
+The useful evidence is tests that lock known failure modes, issues that record unresolved bounds, roadmaps that name missing validation, and corrections that show where an initial procedure was insufficient. The recurring sequence is:
 
 **target → assumptions → implementation → deliberate failure → independent check → correction → remaining bound**
