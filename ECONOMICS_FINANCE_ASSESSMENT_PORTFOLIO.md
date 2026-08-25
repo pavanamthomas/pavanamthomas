@@ -1,10 +1,22 @@
 # Economics & Finance Assessment
 
-This track is the public work sample for **question authoring** and **question verification**: a 10-option item with one key, nine expert-plausible distractors, a Medium / Hard / Expert label, a written derivation, and 1–5 references that support the keyed claim.
+This track is the public work sample for **question authoring** and **question verification** in the five domains named in that posting: market microstructure, macroprudential policy, behavioral finance / experimental economics, urban economics, and tokenomics / DeFi.
 
-It is self-directed technical study and benchmark-development practice. It is not a trading desk, a supervisor, a protocol, a test publisher, or a CFA/FRM/CPA claim. Numerical examples are constructed fixtures, not live books or mainnet fills.
+The object is a 10-option item: one key, nine expert-plausible distractors, a Medium / Hard / Expert label, a written derivation, and 1–5 references that support the keyed claim. Self-directed study. Not a desk, a CFA, or a protocol job.
 
-The ML laboratories on this profile are a different track. They are not replaced here.
+## What this track is not
+
+Do not treat methods labs as the five domains.
+
+| Methods repo | What it actually is | What it is not |
+| --- | --- | --- |
+| [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) | DiD, IV, RD, matching on documented DGPs | Urban economics; a 10-option amenity-shock item |
+| [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models) | TVM, parity, duration, VaR identities | Market microstructure; an executable book |
+| [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation) | Coverage, Type I/II, p-value misuse | Behavioral finance; a CPT reference table |
+| [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks) | Scoring fluent *answers* | Authoring the stems; the rejected-item file |
+| ML laboratories on this profile | Model selection, RAG, SQL, PyTorch | This assessment role |
+
+Those repos are listed on [ECONOMICS_EXPERT_PORTFOLIO.md](ECONOMICS_EXPERT_PORTFOLIO.md). They support quantitative methods. They are not substitutes for the table below.
 
 ## What to open first
 
