@@ -4,39 +4,17 @@ PhD quantitative researcher. Economics, statistics, mathematical modelling, and 
 
 The economics work is not a previous identity. Identification, information sets, and independent checks are the same habit whether the object is an IV, a nested-CV score, a SQL feature, or a RAG trace. Job history is quantitative research, not an ML-engineer title.
 
-**Economics & Finance assessment authoring / verification** (the five posting domains: market microstructure, macroprudential policy, behavioral finance, urban economics, tokenomics/DeFi) is the first track below. DiD, TVM, and the ML laboratories are quantitative methods. They are **not** those five domains.
-
-[Economics & Finance Assessment](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md) · 10-option authoring and verification in the five posting domains. This is the work sample for that role.
-
-[Economics Expert / PhD Quantitative Research](ECONOMICS_EXPERT_PORTFOLIO.md) · Econometrics, causal inference, forecasting, optimisation, AI evaluation of quantitative answers. Methods track. Not a substitute for the five domains.
+[Economics Expert / PhD Quantitative Research](ECONOMICS_EXPERT_PORTFOLIO.md) · Econometrics, causal inference, forecasting, optimisation, AI evaluation of quantitative answers.
 
 [Machine Learning Expert / Computational STEM](MACHINE_LEARNING_EXPERT_PORTFOLIO.md) · Python, model validation, ground-truth engineering, SQL, GenAI/RAG, PyTorch, reproducible serving.
+
+[Economics & Finance Assessment](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md) · Separate track: 10-option authoring and verification in microstructure, macroprudential policy, behavioral finance, urban economics, and tokenomics/DeFi.
 
 Samples in the Python repos are documented simulated DGPs or closed forms unless a file says otherwise. Recovering a simulated parameter is not an empirical finding. Nothing here is a commercial deployment.
 
 ---
 
-## Economics & finance assessment (the five posting domains)
-
-This is the sample for **question authoring** and **question verification**. Eight 10-option items in each domain, plus an executable companion lab for each domain.
-
-**[economics-finance-assessment-benchmark-lab](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab)** — 40 accepted items and 11 rejected drafts. The validator checks completeness, not economic truth. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab/blob/main/FLAGSHIP_CASE_STUDY.md): fee-free pool `(100, 100)`, sale of 10 X; spots 1 and `100/121` versus fill `10/11`.
-
-| Posting domain | Companion lab |
-| --- | --- |
-| Algorithmic trading & market microstructure | [market-microstructure-algorithmic-trading-lab](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) |
-| Macroprudential policy | [macroprudential-systemic-risk-lab](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) |
-| Behavioral finance & experimental economics | [behavioral-finance-experimental-economics-lab](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab) |
-| Urban economics | [urban-economics-spatial-equilibrium-lab](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab) |
-| Tokenomics & decentralized finance | [tokenomics-defi-mechanism-design-lab](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab) |
-
-Full map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
-
-**Not a substitute for the five domains.** [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) is DiD / IV / RD on documented DGPs — it is not urban economics. [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models) is TVM, parity, and VaR identities — it is not a limit-order book. [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks) scores *answers* — it does not author the 10-option stems. Those repos stay on the methods page.
-
----
-
-## Work a reviewer can open (identification and ML)
+## Work a reviewer can open
 
 **[econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)** — DiD, IV, RD, matching, and panel methods on documented DGPs. A coefficient that prints is not an identified treatment effect. [CASE_STUDY.md](https://github.com/pavanamthomas/econometrics-causal-inference-lab/blob/main/CASE_STUDY.md)
 
@@ -49,6 +27,18 @@ Full map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSME
 **[ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)** — fluent answers that fail on the target, the information set, or the interpretation. One author coded the YAML. [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md)
 
 **[genai-rag-evaluation-lab](https://github.com/pavanamthomas/genai-rag-evaluation-lab)** — gold can sit at rank 1 while the extractive answer abstains. Retrieval metrics are not answer quality. [FLAGSHIP_RAG_FAILURE_ANALYSIS.md](https://github.com/pavanamthomas/genai-rag-evaluation-lab/blob/main/FLAGSHIP_RAG_FAILURE_ANALYSIS.md)
+
+---
+
+## Economics & finance assessment
+
+A **separate** track from the ML laboratories above. The object is a 10-option item in five named domains. It does not replace the ML sample, and the ML sample does not replace it.
+
+**[economics-finance-assessment-benchmark-lab](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab)** — 40 accepted items (eight in each domain) and 11 rejected drafts. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab/blob/main/FLAGSHIP_CASE_STUDY.md): spots 1 and `100/121` versus fill `10/11`.
+
+Companions: [microstructure](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) · [macroprudential](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) · [behavioral finance](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab) · [urban](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab) · [tokenomics](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab).
+
+Map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
 
 ---
 

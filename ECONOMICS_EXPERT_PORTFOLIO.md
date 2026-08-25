@@ -1,16 +1,8 @@
 # Economics Expert / PhD Quantitative Research
 
-These repositories are the **identification and methods** work. They are not the Mercor Economics & Finance assessment sample.
+These repositories are the identification work. The ML laboratories reuse the same discipline; they do not replace it.
 
-If the posting is 10-option authoring and verification in market microstructure, macroprudential policy, behavioral finance, urban economics, and tokenomics/DeFi, stop and open [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
-
-Strictly:
-
-- [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) is DiD, IV, RD, matching, and panel designs. It does **not** cover urban economics.
-- [quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models) is TVM, parity, duration, and VaR identities. It does **not** cover market microstructure.
-- [ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks) scores quantitative *answers*. It does **not** author the 10-option stems.
-
-The ML laboratories reuse the same discipline; they do not replace either track.
+10-option assessment authoring in five named domains is a **separate** track: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md). It does not replace the identification labs below, and DiD / TVM are not substitutes for those five domains.
 
 ## [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)
 
