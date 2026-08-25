@@ -8,8 +8,6 @@ The economics work is not a previous identity. Identification, information sets,
 
 [Machine Learning Expert / Computational STEM](MACHINE_LEARNING_EXPERT_PORTFOLIO.md) · Python, model validation, ground-truth engineering, SQL, GenAI/RAG, PyTorch, reproducible serving.
 
-[Economics & Finance Assessment / AI Benchmarking](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md) · Question authoring, verification, distractor engineering, difficulty calibration, quantitative review, and academic-reference discipline.
-
 Samples in the Python repos are documented simulated DGPs or closed forms unless a file says otherwise. Recovering a simulated parameter is not an empirical finding. Nothing here is a commercial deployment.
 
 ---
