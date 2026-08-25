@@ -8,6 +8,8 @@ The economics work is not a previous identity. Identification, information sets,
 
 [Machine Learning Expert / Computational STEM](MACHINE_LEARNING_EXPERT_PORTFOLIO.md) · Python, model validation, ground-truth engineering, SQL, GenAI/RAG, PyTorch, reproducible serving.
 
+[Economics & Finance Assessment](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md) · 10-option authoring and verification in microstructure, macroprudential policy, behavioral finance, urban economics, and tokenomics/DeFi.
+
 Samples in the Python repos are documented simulated DGPs or closed forms unless a file says otherwise. Recovering a simulated parameter is not an empirical finding. Nothing here is a commercial deployment.
 
 ---
@@ -25,6 +27,22 @@ Samples in the Python repos are documented simulated DGPs or closed forms unless
 **[ai-response-evaluation-benchmarks](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks)** — fluent answers that fail on the target, the information set, or the interpretation. One author coded the YAML. [FLAGSHIP_REVIEW_CASE.md](https://github.com/pavanamthomas/ai-response-evaluation-benchmarks/blob/main/FLAGSHIP_REVIEW_CASE.md)
 
 **[genai-rag-evaluation-lab](https://github.com/pavanamthomas/genai-rag-evaluation-lab)** — gold can sit at rank 1 while the extractive answer abstains. Retrieval metrics are not answer quality. [FLAGSHIP_RAG_FAILURE_ANALYSIS.md](https://github.com/pavanamthomas/genai-rag-evaluation-lab/blob/main/FLAGSHIP_RAG_FAILURE_ANALYSIS.md)
+
+---
+
+## Economics & finance assessment
+
+A separate track from the ML laboratories. The object is a 10-option item: one key, nine expert-plausible distractors, a Medium/Hard/Expert label, a written derivation, and 1–5 references that support the keyed claim. Self-directed authoring and verification practice; not a desk, a CFA, or a protocol job.
+
+**[economics-finance-assessment-benchmark-lab](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab)** — 40 accepted items (eight in each of the five domains) and 11 rejected drafts. The validator checks completeness, not economic truth. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab/blob/main/FLAGSHIP_CASE_STUDY.md): fee-free pool `(100, 100)`, sale of 10 X; spots 1 and `100/121` versus fill `10/11`.
+
+Executable depth for three of the five domains:
+
+- [market-microstructure-algorithmic-trading-lab](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) — mid-marked P&L is not an executable fill.
+- [tokenomics-defi-mechanism-design-lab](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab) — the same three-price identity, including the fee case the MCQ stem excluded.
+- [macroprudential-systemic-risk-lab](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) — restoring a 10% capital target dumps the book; freeze κ is 9.09%, terminal κ is 6.86%.
+
+Behavioral finance and urban economics live in the assessment corpus (no separate executable lab). Full map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
 
 ---
 

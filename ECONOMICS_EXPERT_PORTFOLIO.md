@@ -2,6 +2,8 @@
 
 These repositories are the identification work. The ML laboratories reuse the same discipline; they do not replace it.
 
+10-option assessment authoring and verification (microstructure, macroprudential policy, behavioral finance, urban economics, tokenomics/DeFi) is a separate track: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md). It does not replace the identification labs below.
+
 ## [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab)
 
 What estimand is identified, under which assumptions, and what breaks when those fail.
