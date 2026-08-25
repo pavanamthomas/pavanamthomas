@@ -22,8 +22,8 @@ Rejected drafts live in `rejected_items/`. Each names a defect class (two keys, 
 | --- | --- | --- |
 | Algorithmic trading & market microstructure | `items/algorithmic_trading/` (prefix `MM`) | [market-microstructure-algorithmic-trading-lab](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) |
 | Macroprudential policy | `items/macroprudential/` (prefix `MP`) | [macroprudential-systemic-risk-lab](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) |
-| Behavioral finance & experimental economics | `items/behavioral_finance/` (prefix `BF`) | Items only |
-| Urban economics | `items/urban_economics/` (prefix `UE`) | Items only |
+| Behavioral finance & experimental economics | `items/behavioral_finance/` (prefix `BF`) | [behavioral-finance-experimental-economics-lab](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab) |
+| Urban economics | `items/urban_economics/` (prefix `UE`) | [urban-economics-spatial-equilibrium-lab](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab) |
 | Tokenomics & decentralized finance | `items/tokenomics_defi/` (prefix `TD`) | [tokenomics-defi-mechanism-design-lab](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab) |
 
 Difficulty mix in the accepted corpus: 10 Medium, 15 Hard, 15 Expert. The rubric is inferential branching, not algebra length (`docs/difficulty_calibration.md`). A glossary card labelled Expert is a reject (`RJ-06`).
@@ -40,11 +40,13 @@ Flagship in the corpus: `MP-E-01` (Nash fire sale versus coordinated freeze). Th
 
 ### Behavioral finance & experimental economics
 
-Items only (no separate lab). Flagship: `BF-E-01` — a CPT prediction is not unique until the reference point is stated. Other stems cover disposition, fourfold pattern versus λ, incentives and selected secondaries, and related identification splits. Overlap with [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) is experimental design, not a substitute for the YAML.
+Flagship in the corpus: `BF-E-01` — a CPT prediction is not unique until the reference point is stated. The lab prints the TK92 table: purchase R=100 takes the 50-50 (gap **+0.44**); spot R=80 locks (gap **−4.74**); linear `v(x)=x` is indifferent at every R. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab/blob/main/FLAGSHIP_CASE_STUDY.md)
+
+Overlap with [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) is experimental design, not a substitute for the YAML or the value-function table.
 
 ### Urban economics
 
-Items only. Flagship: `UE-H-01` — closed-city versus open-city amenity shock; “rents rise and residents are better off” is not a common prediction. Other stems: bid-rent `R'(d) = −t/q`, Roback `(w, R)` cells, housing-supply incidence.
+Flagship in the corpus: `UE-H-01` — closed-city versus open-city amenity shock. The lab: closed dR ≈ **+0.094** with du > 0; open dR ≈ **+0.361** with du = 0 and N 1 → 1.555. “Rents rise and residents are better off in both models” is false. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab/blob/main/FLAGSHIP_CASE_STUDY.md)
 
 ### Tokenomics & decentralized finance
 

@@ -36,13 +36,15 @@ A separate track from the ML laboratories. The object is a 10-option item: one k
 
 **[economics-finance-assessment-benchmark-lab](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab)** — 40 accepted items (eight in each of the five domains) and 11 rejected drafts. The validator checks completeness, not economic truth. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab/blob/main/FLAGSHIP_CASE_STUDY.md): fee-free pool `(100, 100)`, sale of 10 X; spots 1 and `100/121` versus fill `10/11`.
 
-Executable depth for three of the five domains:
+Executable companion for each of the five domains:
 
 - [market-microstructure-algorithmic-trading-lab](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) — mid-marked P&L is not an executable fill.
-- [tokenomics-defi-mechanism-design-lab](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab) — the same three-price identity, including the fee case the MCQ stem excluded.
 - [macroprudential-systemic-risk-lab](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) — restoring a 10% capital target dumps the book; freeze κ is 9.09%, terminal κ is 6.86%.
+- [behavioral-finance-experimental-economics-lab](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab) — the same 50-50 around 80 is a gamble under the purchase price and a lock under the spot; linear EU of changes is indifferent at every R.
+- [urban-economics-spatial-equilibrium-lab](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab) — closed amenity: dR ≈ +0.094 and du > 0; open amenity: dR ≈ +0.361 and du = 0.
+- [tokenomics-defi-mechanism-design-lab](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab) — the same three-price identity, including the fee case the MCQ stem excluded.
 
-Behavioral finance and urban economics live in the assessment corpus (no separate executable lab). Full map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
+Full map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
 
 ---
 
