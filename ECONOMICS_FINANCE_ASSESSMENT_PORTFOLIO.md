@@ -60,6 +60,8 @@ Overlap with [econometrics-causal-inference-lab](https://github.com/pavanamthoma
 
 Flagship in the corpus: `UE-H-01` — closed-city versus open-city amenity shock. The lab: closed dR ≈ **+0.094** with du > 0; open dR ≈ **+0.361** with du = 0 and N 1 → 1.555. “Rents rise and residents are better off in both models” is false. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab/blob/main/FLAGSHIP_CASE_STUDY.md)
 
+Related, not this object: [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab) is DiD / IV / RD. It is not a bid-rent envelope or an open-city pin.
+
 ### Tokenomics & decentralized finance
 
 Flagship in the corpus: `TD-E-01` (the three prices). The lab adds the 30 bp fee case that breaks the geometric-mean identity, IL versus hold, arb restoration, health factor, stale oracles, and ordering rent on a constructed pool — not a bot. [FLAGSHIP_CASE_STUDY.md](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab/blob/main/FLAGSHIP_CASE_STUDY.md)
