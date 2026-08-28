@@ -20,6 +20,8 @@ A longer list of those identification and inference labs: [ECONOMICS_EXPERT_PORT
 
 **[quantitative-finance-models](https://github.com/pavanamthomas/quantitative-finance-models)** — TVM, duration, parity, VaR/ES identities under stated assumptions. Not a trading book.
 
+**[financial-annotation-reconciliation-labs](https://github.com/pavanamthomas/financial-annotation-reconciliation-labs)** — three packages: a `SUM` that swallows a product row, an invoice span labelled `total` that is the pre-tax subtotal, a cash rec that ties by adding back a cleared check. A number that ties is not a finished check.
+
 ## Computational checks
 
 These are method laboratories, not an engineering job title.
@@ -47,6 +49,8 @@ Self-directed 10-option items (one key, nine distractors, a derivation, referenc
 **[economics-finance-assessment-benchmark-lab](https://github.com/pavanamthomas/economics-finance-assessment-benchmark-lab)** — accepted items and rejected drafts. CI checks schema, not that the economics is true.
 
 Companions: [microstructure](https://github.com/pavanamthomas/market-microstructure-algorithmic-trading-lab) · [macroprudential](https://github.com/pavanamthomas/macroprudential-systemic-risk-lab) · [behavioral finance](https://github.com/pavanamthomas/behavioral-finance-experimental-economics-lab) · [urban](https://github.com/pavanamthomas/urban-economics-spatial-equilibrium-lab) · [tokenomics](https://github.com/pavanamthomas/tokenomics-defi-mechanism-design-lab).
+
+Related stress notes, not substitutes for the items: [execution](https://github.com/pavanamthomas/market-microstructure-execution-stress-lab) (a mid forecast that is not a fill) · [DeFi mechanism](https://github.com/pavanamthomas/defi-market-microstructure-mechanism-stress-lab) (a stabilizer that amplifies the shock).
 
 Map: [ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md](ECONOMICS_FINANCE_ASSESSMENT_PORTFOLIO.md).
 

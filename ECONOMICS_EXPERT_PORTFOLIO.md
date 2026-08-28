@@ -39,3 +39,9 @@ Fluent quantitative answers that fail on the target object, the information set,
 Identities under stated assumptions, not a trading book.
 
 [MODEL_RISK_NOTES.md](https://github.com/pavanamthomas/quantitative-finance-models/blob/main/MODEL_RISK_NOTES.md). Duration-convexity error grows with the yield shock. Recovering a simulated parameter is not live performance.
+
+## [financial-annotation-reconciliation-labs](https://github.com/pavanamthomas/financial-annotation-reconciliation-labs)
+
+A number that ties is not a finished check.
+
+Three packages in one tree: a spreadsheet `SUM` that includes a product row, an invoice span labelled `total` that is the pre-tax subtotal, and a cash rec that ties by adding back a check already on the bank statement. Grids and ledgers are written in the repo. There are no client files.
